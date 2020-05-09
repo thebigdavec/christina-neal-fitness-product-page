@@ -73,7 +73,7 @@ nav {
 }
 
 label {
-    font-size: smaller;
+    font-size: 1em;
     display: block;
     text-transform: uppercase;
 }
@@ -91,7 +91,7 @@ input {
     background-color: var(--clr-primary-cool);
     text-transform: uppercase;
     font-size: 1em;
-    padding: 0.3em 2em;
+    padding: 0.25em 1.5em;
     border-radius: 4px;
 }
 
@@ -318,12 +318,14 @@ article::after {
         justify-content: space-between;
     }
     .text-input {
-        /*     width: 74%; */
         margin-bottom: 0;
+        border-radius: 4px 0px 0px 4px;
+        border-right-style: none;
     }
     .button {
         width: max-content;
         margin-bottom: 0;
+        border-radius: 0px 4px 4px 0px;
     }
     label {
         display: inline-block;
